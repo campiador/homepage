@@ -1,0 +1,87 @@
+body {
+	margin-left:1cm;
+	margin-right:5;
+	max-width:50em;
+}
+
+/* -------------------------------------------------------------
+
+		Front matter
+
+   ------------------------------------------------------------- */
+
+.headshot {
+	margin-left: 2em;
+	margin-bottom: 1em;
+	margin-top: 16px; /* try to center image vertically in div box */
+	float: right;
+	width: 160px; /* img.width + 20 to pad on right */
+}
+
+.headshot img {width:140px;}
+
+div.headerdiv {
+	margin-top:0.5em;
+	text-align:center;
+	margin-bottom:2em;
+	padding-left:1cm;
+	padding-top:0em;
+	padding-left:1cm;
+	padding-left:1cm;
+	border:solid;
+	min-height:210px; /* allow for photo */
+}
+
+div.headerdiv h1 {
+	padding-top:1.2em;
+	padding-bottom:0.2em;
+	font-size:120%;
+	font-style:italic;
+}
+
+div.headerdiv p {
+}
+
+.warningdiv {
+	color:darkgreen;
+	font-size:110%;
+	border:solid;
+	padding-left:1em;
+	padding-right:1em;
+}
+
+/* -------------------------------------------------------------
+
+		Main Body of Page
+
+   ------------------------------------------------------------- */
+
+div.main {
+  	margin-right:7%;
+	clear:both;
+}
+div.main h1 {
+	font-size:140%;
+
+}
+
+div.main h2 {
+	font-size:100%;
+	margin-left:2%;
+}
+/* Paragraphs in the main body of the page */
+div.main p, div.main ul {
+
+ 	margin-left:1cm; 
+
+}
+
+div.main blockquote {
+	font-size:90%;
+	font-face:sansserif;
+	font-style:italic;
+}
+
+.address {
+	padding-left:3em;
+}
