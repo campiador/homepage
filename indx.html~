@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"> 
 <title>Behnam Heydarshahi's Homepage</title>
-<link rel="stylesheet" type="text/css" href="behnam.css?v=1.1.2"/> <!-- CSS courtesy of professor Noah Mendelsohn -->
+<link rel="stylesheet" type="text/css" href="behnam.css" /> <!–– The CSS file is courtesy of professor Noah Mendelsohn ––>
 </head>
 <body>
 
@@ -22,7 +22,7 @@
 <h2 id="nlp">Using ML and NLP to pinpoint code bugs from user reviews on app-store</h2>
 <p>At Tufts for my NLP class project, I wrote a program to perform latent semantic analysis on app-store user reviews for two apps, and the goal was to automatically find app bugs from user reviews. I implemented a topic modeling algorithm that read as input a corpus of app store user reviews. I used a TF-IDF matrix in Scala, and Breeze library&rsquo;s singular value decomposition. I extracted 10 topics from the reviews. I showed that multiple of those topics referred to common bugs in those apps. For future work, I would like to combine this project with a static analysis tool that takes in the bugs I already detect, and takes as input also the app source code, and as output pinpoints the lines in code from which those bugs arise. This could be a big step towards fully-automated app testing with minimal developer &ldquo;babysitting.&rdquo;</p>
 <h2 id="security">Size-Aware Hardware Trojan Detection</h2>
-<p>I completed this project at Sharif University of Technology before coming to Tufts. I developed a circuit simulator system, and combined and compared functional testing with side-channel testing. For modelling the Trojan I started with a small logic gate, namely an XOR, and then moved on to more complex comibinational and sequential circuits. The functional simulator, implemented in Java, parses in the verilog circuit. The side-channel metric is power consumption. For power estimation, the I calculate the switching activity of gates in SAIF format and feed it to Power Compiler. I compare the results of the circuit containing Trojan, with a golden cicruit. I also consider the power threshold induced by process varitation.</p>
+<p>I completed this project at Sharif University of Technology before coming to Tufts. I developed a circuit simulator system, and combined and compared functional testing with side-channel testing. For modelling the I started with a small logic gate, namely an XOR, and then moved on to more complex comibinational and sequential circuits. The functional simulator, implemented in Java, parses in the verilog circuit. The side-channel metric is power consumption. For power estimation, the I calculate the switching activity of gates in SAIF format and feed it to Power Compiler. I compare the results of the circuit containing Trojan, with a golden cicruit. I also consider the power threshold induced by process varitation.</p>
 
 <h1 id="service">Volunteer and Leadership Experience at Tufts</h1>
 <p>While studying at Tufts I have served on a few community leadership positions. I was elected as the president of Computer Science League of Learning (CSLoL), one of the most popular graduate student organizations across the university. We have taught coding to graduate students from many departments across Tufts. I also serve as a board member of Tufts Computer Science Student Council, where we focus on helping to make Tufts an environment where everyone feels like they belong enough. .</p>
